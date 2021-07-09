@@ -3,7 +3,7 @@
 '''
 Author: whalefall
 Date: 2021-07-08 12:38:04
-LastEditTime: 2021-07-09 03:00:56
+LastEditTime: 2021-07-09 23:24:03
 Description: 句子控各接口测试
 '''
 import requests
@@ -147,4 +147,5 @@ class GetJuzhi(object):
 
 
 if __name__ == "__main__":
-    GetJuzhi().get_tuijian()
+    
+    print(GetJuzhi().get_tuijian())
